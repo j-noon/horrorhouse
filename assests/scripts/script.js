@@ -12,4 +12,4 @@ document.getElementById("check-btn").addEventListener("click", function() {
     } else {
         result.textContent = "Incorrect token. Try again.";
     }
-});
+}
