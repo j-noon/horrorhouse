@@ -9,14 +9,26 @@
 <body>
     <header>
         <h1>Horror House</h1>
-        <div class="logo">[Logo]</div>
+        <div class="logo"><img id="logo-img" src="assests/images/8fb010f9-0c1a-4aa9-88d6-89e0caee8e6f-cutout.webp"></div>
     </header>
-    
+    <!-- game space-->
     <div id="game-space"></div>
+
+    <img src="assests/images/game-home.webp" alt="" id="game-home">
     
-    <h2 id="hint-btn">Need a hint!</h2>
-    <p id="hint" style="display: none;"> maybe theres a way to simply, open the door</p>
-    
+    <p id="hint-btn"><strong>Need a hint!</strong></p>
+    <!-- hidden hint-->
+    <p id="hint" style="display: none;">hint-displayed!</p>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- escape content-->
+    <p> Place final key token<br> below to escape the<br> house of horror! </p>
+
     <div id="token-checker">
         <input type="text" id="token-input" placeholder="Enter token here">
         <button id="check-btn">Check</button>
