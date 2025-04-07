@@ -1,5 +1,13 @@
 h1 {
     text-align: center;
+    font-family:'brush-script', Courier, monospace;
+    text-decoration: underline;
+    
+}
+
+h2 {
+    font-family:'brush-script', Courier, monospace;
+    margin-left: 5px;
 }
 
 #logo-img {
