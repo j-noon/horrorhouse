@@ -1,10 +1,21 @@
+/* header*/
+
 h1 {
     text-align: center;
     font-family:'brush-script', Courier, monospace;
     text-decoration: underline;
-    
 }
 
+#nav {
+    position: absolute;
+    left: 60%;
+    top: 20px;
+    text-decoration: underline;
+    border-radius: 8px;
+}
+
+
+/* mian oage*/
 h2 {
     font-family:'brush-script', Courier, monospace;
     margin-left: 5px;
