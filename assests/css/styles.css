@@ -1,4 +1,10 @@
+p {
+    margin-left: 3px;
+}
+
+
 /* header*/
+
 
 h1 {
     text-align: center;
@@ -6,16 +12,16 @@ h1 {
     text-decoration: underline;
 }
 
-#nav {
+.nav {
     position: absolute;
-    left: 60%;
-    top: 20px;
+    left: 36%;
+    top: 60px;
     text-decoration: underline;
     border-radius: 8px;
 }
 
 
-/* mian oage*/
+/* mian page*/
 h2 {
     font-family:'brush-script', Courier, monospace;
     margin-left: 5px;
@@ -60,6 +66,15 @@ h2 {
     top: 27%;
     display: none;
 }
+
+/*examples page*/
+
+#highlight-image {
+    width: 80%;
+    margin-left: 30px;
+}
+
+/*404 page*/
 
 #error-content {
    text-align: center; 
@@ -115,6 +130,14 @@ h2 {
 
 @media screen and (min-width: 768px) {
     
+    .nav {
+        position: absolute;
+        left: 45%;
+        top: 60px;
+        text-decoration: underline;
+        border-radius: 8px;
+    }
+
     #nugget {
         width: 10px;
         height: 10px;
