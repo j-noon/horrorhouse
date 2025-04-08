@@ -47,7 +47,7 @@ Depending on which room your in the image will display the room.
  - Token Input - A field of where you can only input text and it checks to see weather the token is correct or not. 
  - Hint Button - a clickable bit of text that will display a specific clue depending on certain factors. ie what room your in. 
 
-![hint button and token checker ](Documents\token-checker.png)
+![hint button and token checker ](https://github.com/j-noon/horrorhouse/blob/main/Documents/token-checker.png)
 
 # Pages
 
@@ -65,11 +65,11 @@ Depending on which room your in the image will display the room.
 ## Footer
 
 ## Design
-![design colors](https://github.com/j-noon/Midnight/blob/main/Documents/design.png)
+![design colors](....)
 
-- fonts are imported from google font awsome
+-  
 - font awsome is used for the icons in the footer and the favicons
-- font styles used are Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana and sans-serif
+- font styles used are brush-script', Courier, monospace;
 
 
 
@@ -77,10 +77,10 @@ Depending on which room your in the image will display the room.
  wireframes were made in canva
 ## Wireframes for mobile (375px)
     Home page for mobile
- ![home](assests\wireframes\horrorhouse-horrorhouse375-smaller.png)
+ ![home](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/horrorhouse-horrorhouse375-smaller.png)
 
     Gallery page for mobile
- ![gallery]()
+ ![Examples](....)
 
 
 
@@ -89,7 +89,7 @@ Depending on which room your in the image will display the room.
  ![Home](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/hh-tablets-desktops.png)
 
     Gallery page page for tablets
- ![gallery]()
+ ![Examples](.....)
 
 
 
@@ -98,7 +98,7 @@ Depending on which room your in the image will display the room.
  ![home](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/hh-tablets-desktops.png)
 
      Gallery page for desktops
- ![gallery]()
+ ![Examples](.....)
 
 
 
@@ -145,18 +145,20 @@ To make a clone of the site and ensure you don't affect the original:
 | Broken link | Enter | Navigate to 404 page | Successful | 
 
 
-  ## Index page validated
-![index validated](Documents\horrorhouse-html-pass.png)
-## Galery page validated
-![Examples validated]()
+## Index page validated
+![index validated](https://github.com/j-noon/horrorhouse/blob/main/Documents/horrorhouse-html-pass.png)
+## Examples page validated
+![Examples validated](.....)
 ## CSS page validated
-![css us validated](Documents\horrorhouse-css-pass.png)
+![css us validated](https://github.com/j-noon/horrorhouse/blob/main/Documents/horrorhouse-css-pass.png)
+## Admin page validated
+![Admin validated](.....)
+
 
 ## found bugs
 - my peice of gold that marks the key in room to wasnt in correct places when using a extra large display. this has now been amended. 
-On deployment the nugget is out of place. 
-
-- hints where not changing when rooms changed. i now corected this.
+- On deployment the nugget is out of place. 
+- Hints where not changing when rooms changed. i now corected this.
 
 
 

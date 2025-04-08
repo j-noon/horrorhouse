@@ -58,15 +58,23 @@ h2 {
 /* hidden admin page*/
 
 #treasure {
+    width: 60%;
+    height: 200px;
    position: absolute;
-   left: 35%;
+   left: 25%;
 }
 
 #hidden-h2 {
     position: absolute;
-    margin-top: 30%;
-    margin-left:35%;
-    background-color: orangered;
+    margin-top: 70%;
+    text-align: center;
+}
+
+#admin-home{
+    position: absolute;
+    margin-top: 115%;
+    margin-left: 30%;
+    text-decoration: underline;
 }
 
 /* media querries*/
@@ -104,6 +112,27 @@ h2 {
         top: 52%;
         display: none;
     }
+
+    #treasure {
+        width: 48%;
+        height: 200px;
+       position: absolute;
+       left: 25%;
+    }
+
+    #hidden-h2 {
+        position: absolute;
+        margin-top: 50%;
+        margin-left: 25%;
+    }
+
+
+    #admin-home{
+        position: absolute;
+        margin-top: 70%;
+        margin-left: 40%;
+        text-decoration: underline;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -115,6 +144,28 @@ h2 {
         left: 69%;
         top: 70%;
         display: none;
+    }
+
+    #treasure {
+        width: 35%;
+        height: 200px;
+        margin-left: 90px;
+       position: absolute;
+       left: 25%;
+    }
+
+    #hidden-h2 {
+        position: absolute;
+        margin-top: 30%;
+        margin-left: 28%;
+    }
+
+
+    #admin-home{
+        position: absolute;
+        margin-top: 40%;
+        margin-left: 40%;
+        text-decoration: underline;
     }
 }
 
@@ -139,5 +190,28 @@ h2 {
         left: 69%;
         top: 100%;
         display: none;
+    }
+
+
+    #treasure {
+        width: 30%;
+        height: 300px;
+        margin-left: 110px;
+       position: absolute;
+       left: 25%;
+    }
+
+    #hidden-h2 {
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 32%;
+    }
+
+
+    #admin-home{
+        position: absolute;
+        margin-top: 40%;
+        margin-left: 40%;
+        text-decoration: underline;
     }
 }
