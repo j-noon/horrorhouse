@@ -19,6 +19,7 @@ h2 {
 }
 
 #game-home {
+    text-align: center;
     width: 90%;
     margin-left: 10px;
     padding-left: 10px;
@@ -54,6 +55,21 @@ h2 {
    margin-top: 15%;
 }
 
+/* hidden admin page*/
+
+#treasure {
+   position: absolute;
+   left: 35%;
+}
+
+#hidden-h2 {
+    position: absolute;
+    margin-top: 30%;
+    margin-left:35%;
+    background-color: orangered;
+}
+
+/* media querries*/
 @media screen and (min-width: 375px) {
     
     #nugget {
@@ -114,3 +130,14 @@ h2 {
     }
 }
 
+@media screen and (min-width: 1680px) {
+    
+    #nugget {
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        left: 69%;
+        top: 100%;
+        display: none;
+    }
+}
