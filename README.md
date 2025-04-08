@@ -79,8 +79,11 @@ Depending on which room your in the image will display the room.
     Home page for mobile
  ![home](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/horrorhouse-horrorhouse375-smaller.png)
 
-    Gallery page for mobile
+    Examples page for mobile
  ![Examples](....)
+
+       Admin page for desktops
+ ![Admin](.....)
 
 
 
@@ -88,8 +91,11 @@ Depending on which room your in the image will display the room.
     Home page for tablets
  ![Home](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/hh-tablets-desktops.png)
 
-    Gallery page page for tablets
+    Examples page page for tablets
  ![Examples](.....)
+
+       Admin page for desktops
+ ![Admin](.....)
 
 
 
@@ -97,8 +103,11 @@ Depending on which room your in the image will display the room.
      Home page for desktops
  ![home](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/hh-tablets-desktops.png)
 
-     Gallery page for desktops
+     Examples page for desktops
  ![Examples](.....)
+
+      Admin page for desktops
+ ![Admin](.....)
 
 
 

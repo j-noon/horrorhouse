@@ -179,6 +179,28 @@ h2 {
         top: 79%;
         display: none;
     }
+
+    #treasure {
+        width: 25%;
+        height: 300px;
+        margin-left: 110px;
+       position: absolute;
+       left: 25%;
+    }
+
+    #hidden-h2 {
+        position: absolute;
+        margin-top: 30%;
+        margin-left: 32%;
+    }
+
+
+    #admin-home{
+        position: absolute;
+        margin-top: 40%;
+        margin-left: 40%;
+        text-decoration: underline;
+    }
 }
 
 @media screen and (min-width: 1680px) {
@@ -194,7 +216,7 @@ h2 {
 
 
     #treasure {
-        width: 30%;
+        width: 25%;
         height: 300px;
         margin-left: 110px;
        position: absolute;
@@ -203,7 +225,7 @@ h2 {
 
     #hidden-h2 {
         position: absolute;
-        margin-top: 10%;
+        margin-top: 20%;
         margin-left: 32%;
     }
 
