@@ -85,6 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
             gameImage.src = images[currentImageIndex];
             gameHint.innerHTML = "<strong><em>You found the book! The title reads 'The controlling of A...'</em></strong>";
             bookFound = true;
+            document.getElementById("wintoken").style.display = "block";
             hintText.style.display = "none";  // Hide the hint when moving to a new room
         }
     });
