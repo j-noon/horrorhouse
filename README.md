@@ -16,7 +16,7 @@
 
 
 # About Horror House
-  welcome to Horror House. Horror House is a very small click puzzle game. It's idea is to engage with the user to have them think and actually pay atention to the page. If they are able to decipher my small puzzles they will eventually get to the end and be able to find the token to escape the room's.  The idea is to be slightly educational and to hint and show small tips within the cyber security field for what and how pentesters go about their day to day tests and exploits.  
+  welcome to Horror House. Horror House is a very small click puzzle game. It's idea is to engage with the user to have them think and actually pay atention to the page. If they are able to decipher my small puzzles they will eventually get to the end and be able to find the token to escape the room's.  The idea is to be slightly educational and to hint and show small tips within the cyber security field for what and how pentesters go about their day to day tests and exploits. This small game is intended to be played on a device with a keyboard so PC mainly, although all features are still functionable on phones and tablets. 
 
  # User goals and Experiance
 
@@ -41,7 +41,8 @@ Horror Houese's main purpose is for educational gain. By leaving clues on what t
 
 ## game rooms
 Depending on which room your in the image will display the room. 
- - Hidden clicks - Hidden buttons to naviagte into the next room. 
+ - Hidden clicks - Hidden buttons to naviagte into the next room.
+ - hints button - depending on which room your in if you ask for a hint a specified hint will display. 
  ## Token checker
  - Hidden Token - The token you need to leave the room can be found at all times. 
  - Token Input - A field of where you can only input text and it checks to see weather the token is correct or not. 
@@ -62,15 +63,12 @@ Depending on which room your in the image will display the room.
 - Examples page. Where the user can go to check for examples and learning content one specified areas of learning.
 
 
-## Footer
-
 ## Design
 ![design colors](....)
 
 -  
-- font awsome is used for the icons in the footer and the favicons
-- font styles used are brush-script', Courier, monospace;
-
+- font awsome is used for the icons in the favicons.
+- font styles used are brush-script', Courier, monospace.
 
 
 # Wireframes
@@ -82,7 +80,7 @@ Depending on which room your in the image will display the room.
     Examples page for mobile
  ![Examples](....)
 
-       Admin page for desktops
+       Admin page for mobile
  ![Admin](.....)
 
 
@@ -91,10 +89,10 @@ Depending on which room your in the image will display the room.
     Home page for tablets
  ![Home](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/hh-tablets-desktops.png)
 
-    Examples page page for tablets
+    Examples page for tablets
  ![Examples](.....)
 
-       Admin page for desktops
+       Admin page for tablets
  ![Admin](.....)
 
 
