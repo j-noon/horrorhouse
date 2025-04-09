@@ -122,14 +122,33 @@ document.addEventListener("DOMContentLoaded", function () {
     const checkButton = document.getElementById("check-btn");
     const tokenInput = document.getElementById("token-input");
 
-    // Checks if correct token input is made and alerts win or not
-    checkButton.addEventListener("click", function () {
-        const userToken = tokenInput.value.trim();
+ // Modal elements
+ const modal = document.getElementById("myModal");
+ const span = document.getElementsByClassName("close")[0];
+ const modalMessage = document.getElementById("modal-message");
 
-        if (userToken === correctToken) {
-            alert("Congratulations! You win!");
-        } else {
-            alert("Try again!");
-        }
-    });
+ // When the user clicks on <span> (x), close the modal
+ span.onclick = function () {
+     modal.style.display = "none";
+ };
+
+ // When the user clicks anywhere outside of the modal, close it
+ window.onclick = function (event) {
+     if (event.target === modal) {
+         modal.style.display = "none";
+     }
+ };
+
+ // Checks if correct token input is made and shows modal or alert
+ checkButton.addEventListener("click", function () {
+     const userToken = tokenInput.value.trim();
+
+     if (userToken === correctToken) {
+        modalMessage.textContent = "🎉 Congratulations! You win!";
+    } else {
+        modalMessage.textContent = "🚪 The doors remain locked... keep searching!";
+    }
+
+    modal.style.display = "block"; // Show modal in both cases
+});
 });
