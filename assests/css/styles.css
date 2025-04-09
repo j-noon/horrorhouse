@@ -43,7 +43,7 @@ h2 {
 }
 
 #game-space {
-    height: 100px;
+    height: 30px;
 }
 
 #wintoken {
@@ -58,12 +58,16 @@ h2 {
     text-align: center;
 }
 
+#game-room {
+    position: relative;
+}
+
 #nugget {
     width: 10px;
     height: 10px;
     position: absolute;
     left: 69%;
-    top: 60%;
+    top: 70%;
     display: none;
 }
 
@@ -106,26 +110,10 @@ h2 {
 /* media querries*/
 @media screen and (min-width: 375px) {
     
-    #nugget {
-        width: 10px;
-        height: 10px;
-        position: absolute;
-        left: 69%;
-        top: 35%;
-        display: none;
-    }
 }
 
 @media screen and (min-width: 425px) {
     
-    #nugget {
-        width: 10px;
-        height: 10px;
-        position: absolute;
-        left: 69%;
-        top: 35%;
-        display: none;
-    }
 }
 
 @media screen and (min-width: 768px) {
@@ -133,18 +121,21 @@ h2 {
     .nav {
         position: absolute;
         left: 45%;
-        top: 35px;
+        top: 60px;
         text-decoration: underline;
         border-radius: 8px;
     }
 
     #nugget {
-        width: 10px;
         height: 10px;
-        position: absolute;
-        left: 69%;
-        top: 35%;
-        display: none;
+    }
+
+    #game-home {
+        height: 300px;
+    }
+
+    #game-space {
+        height: 20px;
     }
 
     #treasure {
@@ -170,15 +161,15 @@ h2 {
 }
 
 @media screen and (min-width: 1024px) {
-    
-    #nugget {
-        width: 10px;
-        height: 10px;
-        position: absolute;
-        left: 69%;
-        top: 35%;
-        display: none;
+
+    #game-home {
+        height: 320px;
     }
+
+    #game-space {
+        height: 15px;
+    }
+
 
     #treasure {
         width: 35%;
@@ -204,14 +195,9 @@ h2 {
 }
 
 @media screen and (min-width: 1440px) {
-    
-    #nugget {
-        width: 10px;
-        height: 10px;
-        position: absolute;
-        left: 69%;
-        top: 35%;
-        display: none;
+
+    #game-home {
+        height: 400px;
     }
 
     #treasure {
@@ -239,14 +225,7 @@ h2 {
 
 @media screen and (min-width: 1680px) {
     
-    #nugget {
-        width: 10px;
-        height: 10px;
-        position: absolute;
-        left: 69%;
-        top: 35%;
-        display: none;
-    }
+
 
 
     #treasure {

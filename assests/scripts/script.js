@@ -49,8 +49,8 @@ document.addEventListener("DOMContentLoaded", function () {
         
         // Area 4: Wrong door (Triggers alert)
         const fourthArea = {
-             xMin: rect.width * 0.6,
-             xMax: rect.width * 0.7,
+             xMin: rect.width * 0.5,
+             xMax: rect.width * 0.6,
              yMin: rect.height * 0.4,
             yMax: rect.height * 0.6,
          };
@@ -104,12 +104,16 @@ document.addEventListener("DOMContentLoaded", function () {
         hintText.style.display = "block"; // Show the hint when button is clicked
     });
 
-    // Hide the hint paragraph when the "H" key is pressed
-    document.addEventListener("keydown", function (event) {
-        if (event.key === "h" || event.key === "H") {
-            hintText.style.display = "none"; // Hide the hint when "H" is pressed
-        }
-    });
+ // Hide the hint paragraph when the "H" key is pressed
+ document.addEventListener('keydown', function (event) {
+    if (event.key === 'h' || event.key === 'H') {
+      if (hintText.style.display == 'none') {
+        hintText.style.display = 'block';
+      } else {
+        hintText.style.display = 'none'; // Hide the hint when "H" is pressed
+      }
+    }
+  });
 });
 
 document.addEventListener("DOMContentLoaded", function () {
