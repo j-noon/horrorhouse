@@ -63,9 +63,6 @@
 
 
 
-
-    <button id="myBtn">Open Modal</button>
-
 <!-- The Modal -->
 <div id="myModal" class="modal">
 
@@ -76,6 +73,80 @@
   </div>
 
 </div>
+
+
+
+<!-- Terminal Modal -->
+<div id="Term-Modal" class="Term-modal">
+
+    <!-- Terminal Modal content -->
+    <div class="Term-modal-content">
+      <span class="close">&times;</span>
+      <p><div id="gobuster-modal">
+        <style>
+          #gobuster-modal {
+            background-color: black;
+            color: #00FF00;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 10px;
+          }
+          #gobuster-modal .terminal {
+            white-space: pre-wrap;
+            line-height: 1.4;
+          }
+          #gobuster-modal .blinking-cursor {
+            display: inline-block;
+            width: 10px;
+            background-color: #00FF00;
+            animation: goblink 1s step-start infinite;
+          }
+          @keyframes goblink {
+            50% { background-color: transparent; }
+          }
+        </style>
+      
+        <div class="terminal"></div>
+      
+        <script>
+          (function() {
+            const terminal = document.querySelector('#gobuster-modal .terminal');
+      
+            const lines = [
+              "[+] Gobuster v3.6",
+              "[+] URL: https://j-noon.github.io/horrorhouse/",
+              "[+] WORDLIST: /usr/share/wordlists/dirb/common.txt",
+              "[+] Starting directory scan...",
+              "",
+              "/index.html        (Status: 200)",
+              "/game.html         (Status: 200)",
+              "/admin.html        (Status: 200) <== FOUND",
+              "/assets/           (Status: 301)",
+              "/assets/style.css  (Status: 200)",
+              "/assets/main.js    (Status: 200)",
+              "",
+              "[+] Scan completed in 2.73s",
+              "[+] Directories found: 6"
+            ];
+      
+            let index = 0;
+      
+            function typeLine() {
+              if (index < lines.length) {
+                terminal.innerHTML += lines[index] + '\n';
+                index++;
+                setTimeout(typeLine, 250 + Math.random() * 250);
+              } else {
+                terminal.innerHTML += '\n$ <span class="blinking-cursor"></span>';
+              }
+            }
+      
+            typeLine();
+          })();
+        </script>
+      </div> you have found the Admin.html page. use the url to go there!</p> 
+    </div>
+  
+  </div>
 
 
     <script src="https://kit.fontawesome.com/4f5d55a94b.js" crossorigin="anonymous"></script>
