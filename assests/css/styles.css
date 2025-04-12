@@ -89,6 +89,10 @@ h2 {
     color: purple;
 }
 
+#gumpy-token {
+    display: none;
+}
+
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
