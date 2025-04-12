@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const hintButton = document.getElementById("hint-btn");
   const hintText = document.getElementById("hint");
   const nugget = document.getElementById("nugget");
+  const checkButton = document.getElementById("check-btn");
+  const tokenInput = document.getElementById("token-input");
 
   const images = [
     "assests/images/game-home.webp",
@@ -25,9 +27,10 @@ document.addEventListener("DOMContentLoaded", function () {
   gameImage.addEventListener("click", handleImageClick);
   hintButton.addEventListener("click", showHint);
   document.addEventListener("keydown", toggleHintDisplay);
+  checkButton.addEventListener("click", checkToken);
 
   function handleImageClick(event) {
-    // Recalculate areas on each click in case of window resize
+    
     areas = getClickableAreas(gameImage);
 
     const rect = gameImage.getBoundingClientRect();
@@ -46,6 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
     } else if (isInArea(clickX, clickY, areas.fifth) && currentImageIndex === 2) {
       gameHint.innerHTML = "<strong><em>You found the book! The title reads 'The controlling of A...'</em></strong>";
       bookFound = true;
+      document.getElementById("wintoken").style.display = "block";
     }
   }
 
@@ -89,4 +93,24 @@ document.addEventListener("DOMContentLoaded", function () {
       hintText.style.display = hintText.style.display === "none" ? "block" : "none";
     }
   }
+
+  function checkToken() {
+    const correctToken = document.getElementById("wintoken").textContent.trim();
+    const userToken = tokenInput.value.trim();
+    const gumpyToken = document.getElementById("gumpy-token").textContent.trim(); // Getting gumpy-token value
+
+    if (userToken === correctToken) {
+        alert("Congratulations! You win!");
+    } else if (userToken === gumpyToken) {
+        alert("You found gumpies loot, but the doors remain locked. Try using the spell ctrl and a..");
+    } else {
+        alert("The doors remain locked... keep searching!");
+    }
+
+    
+}
+
+
+
+
 });
