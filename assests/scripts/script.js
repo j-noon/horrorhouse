@@ -4,8 +4,13 @@ document.addEventListener("DOMContentLoaded", function () {
   const hintButton = document.getElementById("hint-btn");
   const hintText = document.getElementById("hint");
   const nugget = document.getElementById("nugget");
+  const terminalModal = document.getElementById("Term-Modal");
+  const terminalCloseBtn = terminalModal.querySelector(".close");
   const checkButton = document.getElementById("check-btn");
   const tokenInput = document.getElementById("token-input");
+  const modal = document.getElementById("myModal");
+  const span = document.getElementsByClassName("close")[0];
+  const modalMessage = document.getElementById("modal-message");
 
   const images = [
     "assests/images/game-home.webp",
@@ -22,17 +27,17 @@ document.addEventListener("DOMContentLoaded", function () {
   hintText.style.display = "none";
 
   // Click areas
-  let areas = getClickableAreas(gameImage);
+  const areas = getClickableAreas(gameImage);
 
   gameImage.addEventListener("click", handleImageClick);
   hintButton.addEventListener("click", showHint);
   document.addEventListener("keydown", toggleHintDisplay);
+  terminalCloseBtn.onclick = closeTerminalModal;
+  span.onclick = closeModal;
+  window.onclick = closeModalOnClick;
   checkButton.addEventListener("click", checkToken);
 
   function handleImageClick(event) {
-    
-    areas = getClickableAreas(gameImage);
-
     const rect = gameImage.getBoundingClientRect();
     const clickX = event.clientX - rect.left;
     const clickY = event.clientY - rect.top;
@@ -50,6 +55,8 @@ document.addEventListener("DOMContentLoaded", function () {
       gameHint.innerHTML = "<strong><em>You found the book! The title reads 'The controlling of A...'</em></strong>";
       bookFound = true;
       document.getElementById("wintoken").style.display = "block";
+    } else if (isInArea(clickX, clickY, areas.sixth) && currentImageIndex === 2) {
+      openTerminalModal();
     }
   }
 
@@ -94,23 +101,39 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  function checkToken() {
-    const correctToken = document.getElementById("wintoken").textContent.trim();
-    const userToken = tokenInput.value.trim();
-    const gumpyToken = document.getElementById("gumpy-token").textContent.trim(); // Getting gumpy-token value
+  function openTerminalModal() {
+    terminalModal.style.display = "block";
+  }
 
-    if (userToken === correctToken) {
-        alert("Congratulations! You win!");
-    } else if (userToken === gumpyToken) {
-        alert("You found gumpies loot, but the doors remain locked. Try using the spell ctrl and a..");
-    } else {
-        alert("The doors remain locked... keep searching!");
+  function closeTerminalModal() {
+    terminalModal.style.display = "none";
+  }
+
+  function closeModal() {
+    modal.style.display = "none";
+  }
+
+  function closeModalOnClick(event) {
+    if (event.target === modal) {
+      modal.style.display = "none";
+    } else if (event.target === terminalModal) {
+      closeTerminalModal();
     }
+  }
 
-    
-}
-
-
-
-
+  function checkToken() {
+      const correctToken = document.getElementById("wintoken").textContent.trim();
+      const userToken = tokenInput.value.trim();
+      const gumpyToken = document.getElementById("gumpy-token").textContent.trim(); // Getting gumpy-token value
+  
+      if (userToken === correctToken) {
+          modalMessage.textContent = "🎉 Congratulations! You win!";
+      } else if (userToken === gumpyToken) {
+          modalMessage.textContent = "🎉 You found gumpies loot, but the doors remain locked. Try using the spell ctrl and a..";
+      } else {
+          modalMessage.textContent = "🚪 The doors remain locked... keep searching!";
+      }
+  
+      modal.style.display = "block";
+  }
 });
