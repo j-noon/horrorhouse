@@ -165,6 +165,27 @@ h2 {
     margin-top: -17px;
   }
 
+  #gobuster-modal {
+    background-color: black;
+    color: #00FF00;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+  }
+  #gobuster-modal .terminal {
+    white-space: pre-wrap;
+    line-height: 1.4;
+  }
+  #gobuster-modal .blinking-cursor {
+    display: inline-block;
+    width: 10px;
+    background-color: #00FF00;
+    animation: goblink 1s step-start infinite;
+  }
+  @keyframes goblink {
+    50% { background-color: transparent; }
+  }
+
+
 
 
 

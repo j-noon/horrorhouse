@@ -1,6 +1,6 @@
 # Horror House
 
-![mocup devices view](....)
+![mocup devices view](Documents\hh-mocup-cutout.png)
 
 # Contents
 
@@ -21,17 +21,19 @@
  # User goals and Experiance
 
 ## Target-Audeince
-- age range from 12+ up to early 40s
+- age range from 12+ up to early 40s.
 - Any one who enjoys a good puzzle/brain teaser and cyber security learners.
-- horror puzzle gamers
+- horror puzzle gamers.
 
 ## 1st time vist goals
 - To have thier brains put to the test.
-- Engage there awarness to the page
+- Engage there awarness to the page.
 - The want to finish the game.
 
 ## Returning viewers
-- To progress in the game and learn some new stuff
+- To progress in the game and learn some new stuff.
+- find all the tokens and escape.
+- to re practice the modules and get more understanding in what theyve learnt.
 
 
 # Purpose of Horror House
@@ -43,30 +45,35 @@ Horror Houese's main purpose is for educational gain. By leaving clues on what t
 Depending on which room your in the image will display the room. 
  - Hidden clicks - Hidden buttons to naviagte into the next room.
  - hints button - depending on which room your in if you ask for a hint a specified hint will display. 
+ ![game room area image and clue](Documents\hh-game-area.png)
  ## Token checker
- - Hidden Token - The token you need to leave the room can be found at all times. 
+ - Hidden Token - The token you need to leave the room can be found once said criteria clicks are made. 
  - Token Input - A field of where you can only input text and it checks to see weather the token is correct or not. 
- - Hint Button - a clickable bit of text that will display a specific clue depending on certain factors. ie what room your in. 
+ - Hint Button - a clickable bit of text that will display a specific clue depending on certain factors. ie what room your in.
 
-![hint button and token checker ](https://github.com/j-noon/horrorhouse/blob/main/Documents/token-checker.png)
+
+![hint button and token checker ](Documents\token-checker.png)
 
 # Pages
 
 ## Home Page
++  landing page, this page has the play button to go into the game area.
++  It has clearly written instructions on how to play.
++  This page explains what the end goal is and that is to need to escape. 
+
+
+## Game Page
 +  This has the game area where we click the images to be able to progress through the rooms.
 +  down undeneath the game room images it has a hint.
 +  It also has a "need a hint" buttontthat produces another hint if asked for.
 +  the input fild at the bottom is to check if token is correct. 
 
 
-## Example Page
-- Examples page. Where the user can go to check for examples and learning content one specified areas of learning.
-
 
 ## Design
-![design colors](....)
+![design colors](Documents\hh-design-colors.png)
 
--  
+- I tried to stay simple and aunthentic with color picks.
 - font awsome is used for the icons in the favicons.
 - font styles used are brush-script', Courier, monospace.
 
@@ -75,37 +82,37 @@ Depending on which room your in the image will display the room.
  wireframes were made in canva
 ## Wireframes for mobile (375px)
     Home page for mobile
- ![home](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/horrorhouse-horrorhouse375-smaller.png)
+ ![home](assests\wireframes\hh-home-small-devices.png)
 
-    Examples page for mobile
- ![Examples](....)
+    Game page for mobile
+ ![Game](assests\wireframes\hh-game-small-devices.png)
 
-       Admin page for mobile
- ![Admin](.....)
+    Admin page for mobile
+ ![Admin](assests\wireframes\hh-admin-small-devices.png)
 
 
 
 ### wireframes for tablets (768px)
     Home page for tablets
- ![Home](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/hh-tablets-desktops.png)
+ ![Home](assests\wireframes\hh-home-tablets.png)
 
-    Examples page for tablets
- ![Examples](.....)
+    Game page for tablets
+ ![Game](assests\wireframes\hh-game-tablets.png)
 
        Admin page for tablets
- ![Admin](.....)
+ ![Admin](assests\wireframes\hh-admin-tablets.png)
 
 
 
 ### wireframes for desktops (1024px) 
      Home page for desktops
- ![home](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/hh-tablets-desktops.png)
+ ![home](assests\wireframes\hh-home-desktops.png)
 
-     Examples page for desktops
- ![Examples](.....)
+     Game page for desktops
+ ![Game](assests\wireframes\hh-game-desktops.png)
 
       Admin page for desktops
- ![Admin](.....)
+ ![Admin](assests\wireframes\hh-admin-desktops.png)
 
 
 
@@ -142,30 +149,31 @@ To make a clone of the site and ensure you don't affect the original:
 
 | ELEMENT | PROCESS | EXPECTED RESULT | OUTCOME |
 | ------- | ------- | --------------- | ------- |
-| Logo and website name | Click | Return to homepage | Successful |
-| Navbar 'Home' button | Click | Return to homepage | Successful |
-| Navbar 'gallery' button | Click | Navigate to gallery page | Successful |
-| Navbar 'join us' button | Click | Navigate to join us page | Successful |
-| Navbar buttons | Click | Current page underlined | Successful |
-| 1 gallery link buttons | Click | view all to go to gallery page | Successful |
-| Social media footer links | Click | Navigate to corresponding page in new tab | Successful |
+| Logo    | Click   | Return to homepage | Successful |
+| 'play' button | Click | goes to game page | Successful |
+| hint button | Click | shows a hint specific to the room were in | Successful |
+| hint prompt | key press h | shows and doesnt show hint | successful |
+| token check | input text  | checks the token and responds accordingly | successful |
 | Broken link | Enter | Navigate to 404 page | Successful | 
 
 
 ## Index page validated
-![index validated](https://github.com/j-noon/horrorhouse/blob/main/Documents/horrorhouse-html-pass.png)
-## Examples page validated
-![Examples validated](.....)
+![index validated](Documents\hh-index-html-pass.png)
+## Game page validated
+![Game validated](Documents\hh-game-html-pass.png)
 ## CSS page validated
-![css us validated](https://github.com/j-noon/horrorhouse/blob/main/Documents/horrorhouse-css-pass.png)
+![css us validated](Documents\hh-css-pass.png)
 ## Admin page validated
-![Admin validated](.....)
+![Admin validated](Documents\hh-admin-html-pass.png)
 
 
 ## found bugs
 - my peice of gold that marks the key in room to wasnt in correct places when using a extra large display. this has now been amended. 
 - On deployment the nugget is out of place. 
 - Hints where not changing when rooms changed. i now corected this.
+- When press it shows hint for the hint thats clicked last instead of the current hint. this will be looked at in next version push. 
+- clickable areas needed adjusting lots as to get correct positions.
+- terminal content breaks out of its container box. 
 
 
 
@@ -179,6 +187,7 @@ All images used on the site are taken from google, i ensured that they are not c
 ## code
 all code has been written by myself with the help of a friend giving me tips and hints and examples along the way. 
 wc3 validator and css has passed the css validator. 
+HTML validator has shown a pass on all pages. 
 
 
 # Tools and Technologies
@@ -193,6 +202,7 @@ wc3 validator and css has passed the css validator.
 - [TinyPNG](https://tinypng.com/) to convert images from png to webp.
 - [PhotoscapeX](https://photoscape.en.softonic.com/?utm_source=SEM&utm_medium=paid&utm_campaign=EN_UK_DSA&gad_source=1&gclid=CjwKCAiA5Ka9BhB5EiwA1ZVtvFH7aWmx3he0mnP4GH7c2HDNUaYje_Ck1oBY1xUUDMHXc5tk6l-trBoCFzEQAvD_BwE) to resize images.
 - [canva](https://www.canva.com/) to create the wireframes. 
+- [techsnini](https://techsini.com/) to make moc ups devices.
 
 # Acknowledgments
-A big big thank you to the guys at code-institute: migeul and sammy. To my mentor, Gareth McGirr and my good good friend Ryan. 
+A big big thank you to the guys at code-institute: migeul, To my mentor: Gareth McGirr and my good good friend Ryan. 
