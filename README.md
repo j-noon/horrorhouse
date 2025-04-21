@@ -165,6 +165,9 @@ To make a clone of the site and ensure you don't affect the original:
 ![css us validated](Documents\hh-css-pass.png)
 ## Admin page validated
 ![Admin validated](Documents\hh-admin-html-pass.png)
+## java-script validated
+![java-script validated](## Admin page validated
+![Admin validated](Documents\hh-lint-pass.png)
 
 
 ## found bugs

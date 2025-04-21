@@ -261,7 +261,7 @@ h2 {
     }
 
     #game-home {
-        height: 300px;
+        height: 350px;
     }
 
     #game-space {
@@ -301,7 +301,12 @@ h2 {
 @media screen and (min-width: 1024px) {
 
     #game-home {
-        height: 320px;
+        height: 380px;
+        width: 80%;
+    }
+
+    #game-room {
+        text-align: center;
     }
 
     #game-space {
@@ -340,7 +345,7 @@ h2 {
 @media screen and (min-width: 1440px) {
 
     #game-home {
-        height: 400px;
+        height: 490px;
     }
 
     #treasure {
