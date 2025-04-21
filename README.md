@@ -45,14 +45,14 @@ Horror Houese's main purpose is for educational gain. By leaving clues on what t
 Depending on which room your in the image will display the room. 
  - Hidden clicks - Hidden buttons to naviagte into the next room.
  - hints button - depending on which room your in if you ask for a hint a specified hint will display. 
- ![game room area image and clue](Documents\hh-game-area.png)
+ ![game room area image and clue](https://github.com/j-noon/horrorhouse/blob/main/Documents/hh-game-area.png)
  ## Token checker
  - Hidden Token - The token you need to leave the room can be found once said criteria clicks are made. 
  - Token Input - A field of where you can only input text and it checks to see weather the token is correct or not. 
  - Hint Button - a clickable bit of text that will display a specific clue depending on certain factors. ie what room your in.
 
 
-![hint button and token checker ](Documents\token-checker.png)
+![hint button and token checker ](https://github.com/j-noon/horrorhouse/blob/main/Documents/token-checker.png)
 
 # Pages
 
@@ -71,7 +71,7 @@ Depending on which room your in the image will display the room.
 
 
 ## Design
-![design colors](Documents\hh-design-colors.png)
+![design colors](https://github.com/j-noon/horrorhouse/blob/main/Documents/hh-design-colors.png)
 
 - I tried to stay simple and aunthentic with color picks.
 - font awsome is used for the icons in the favicons.
@@ -82,37 +82,37 @@ Depending on which room your in the image will display the room.
  wireframes were made in canva
 ## Wireframes for mobile (375px)
     Home page for mobile
- ![home](assests\wireframes\hh-home-small-devices.png)
+ ![home](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/hh-home-small-devices.png)
 
     Game page for mobile
- ![Game](assests\wireframes\hh-game-small-devices.png)
+ ![Game](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/hh-game-small-devices.png)
 
     Admin page for mobile
- ![Admin](assests\wireframes\hh-admin-small-devices.png)
+ ![Admin](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/hh-admin-small-devices.png)
 
 
 
 ### wireframes for tablets (768px)
     Home page for tablets
- ![Home](assests\wireframes\hh-home-tablets.png)
+ ![Home](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/hh-home-tablets.png)
 
     Game page for tablets
- ![Game](assests\wireframes\hh-game-tablets.png)
+ ![Game](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/hh-game-tablets.png)
 
        Admin page for tablets
- ![Admin](assests\wireframes\hh-admin-tablets.png)
+ ![Admin](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/hh-admin-tablets.png)
 
 
 
 ### wireframes for desktops (1024px) 
      Home page for desktops
- ![home](assests\wireframes\hh-home-desktops.png)
+ ![home](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/hh-home-desktops.png)
 
      Game page for desktops
- ![Game](assests\wireframes\hh-game-desktops.png)
+ ![Game](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/hh-game-desktops.png)
 
       Admin page for desktops
- ![Admin](assests\wireframes\hh-admin-desktops.png)
+ ![Admin](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/hh-admin-desktops.png)
 
 
 
@@ -158,16 +158,16 @@ To make a clone of the site and ensure you don't affect the original:
 
 
 ## Index page validated
-![index validated](Documents\hh-index-html-pass.png)
+![index validated](https://github.com/j-noon/horrorhouse/blob/main/Documents/hh-admin-html-pass.png)
 ## Game page validated
-![Game validated](Documents\hh-game-html-pass.png)
+![Game validated](https://github.com/j-noon/horrorhouse/blob/main/Documents/hh-game-html-pass.png)
 ## CSS page validated
-![css us validated](Documents\hh-css-pass.png)
+![css us validated](https://github.com/j-noon/horrorhouse/blob/main/Documents/hh-css-pass.png)
 ## Admin page validated
-![Admin validated](Documents\hh-admin-html-pass.png)
+![Admin validated](https://github.com/j-noon/horrorhouse/blob/main/Documents/hh-admin-html-pass.png)
 ## java-script validated
 ![java-script validated](## Admin page validated
-![Admin validated](Documents\hh-lint-pass.png)
+![Admin validated](https://github.com/j-noon/horrorhouse/blob/main/Documents/hh-lint-pass.png)
 
 
 ## found bugs
