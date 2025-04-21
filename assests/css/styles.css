@@ -16,7 +16,7 @@ h1 {
 
 .nav {
     position: absolute;
-    left: 36%;
+    left: 37%;
     top: 60px;
     text-decoration: underline;
     border-radius: 8px;
@@ -237,6 +237,14 @@ h2 {
 /* media querries*/
 @media screen and (min-width: 375px) {
 
+    .nav {
+        position: absolute;
+        left: 38%;
+        top: 60px;
+        text-decoration: underline;
+        border-radius: 8px;
+    }
+
     #bonus-token {
         margin-top: 25%;
     }
@@ -299,6 +307,14 @@ h2 {
 }
 
 @media screen and (min-width: 1024px) {
+
+    .nav {
+        position: absolute;
+        left: 46%;
+        top: 60px;
+        text-decoration: underline;
+        border-radius: 8px;
+    }
 
     #game-home {
         height: 380px;
