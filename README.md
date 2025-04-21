@@ -1,6 +1,6 @@
 # Horror House
 
-![mocup devices view](Documents\hh-mocup-cutout.png)
+![mocup devices view](https://github.com/j-noon/horrorhouse/blob/main/Documents/hh-mocup-cutout.png)
 
 # Contents
 
