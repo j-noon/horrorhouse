@@ -145,7 +145,7 @@ To make a clone of the site and ensure you don't affect the original:
 # testing and findings
 + upon deployment the nugget was not in its correct loacation. 
 + event h pressing shows the hint thats been clicked not the room where in. 
-+ 
+ 
 
 | ELEMENT | PROCESS | EXPECTED RESULT | OUTCOME |
 | ------- | ------- | --------------- | ------- |
@@ -175,7 +175,8 @@ To make a clone of the site and ensure you don't affect the original:
 - Hints where not changing when rooms changed. i now corected this.
 - When "h" press it shows hint for the hint thats clicked last instead of the hint corelating with the room your in. this will be looked at in next version push. 
 - clickable areas needed adjusting lots as to get correct positions.
-- terminal content was breaking out of its container box.
+- terminal content was breaking out of its container box, this has now been corrected.
+- admin pages flow seems abit off but its been adjusted for both development and deployment versions. 
 
 
 
@@ -187,17 +188,17 @@ To make a clone of the site and ensure you don't affect the original:
 All images used on the site are taken from google, i ensured that they are not copy written and that i am able to use theese images displayed. 
 
 ## code
-- all code has been written by myself with the help of a friend giving me tips hints and examples along the way. 
+- all code has been written by myself with the help of a friend giving me tips and examples along the way. 
 - wc3 validator and css has passed the css validator. 
 - HTML validator has shown a pass on all pages. 
-- java script passed with a few linter warnings in the js-linter.
+- java script passed with linter warnings in the js-linter. warnings are to do with the IDE enviroment and doesnt have any effects on the web application.   
 
 
 # Tools and Technologies
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) was used to write the website code.
 - [CSS](https://en.wikipedia.org/wiki/CSS) was used to style the website.
-- [java-script](https://en.wikipedia.org/wiki/JavaScript) was used to give funtionallity to the page for the user to play with it.
+- [java-script](https://en.wikipedia.org/wiki/JavaScript) was used to give funtionallity to the pages.
 - [VScode](https://code.visualstudio.com/) as locaL IDE.
 - [Github](https://github.com) and Github Pages to deploy and host the website.
 - [Google](https://www.google.co.uk/) as a search engine for all queries.
