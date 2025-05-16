@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
     } else if (isInArea(clickX, clickY, areas.third) && keyFound) {
       moveToNextRoom(
         2,
-        "<em>The key worked and you watched it fade into nothingness as the door opened on its own. Welcome to the library! What secrets are hidden here?</em>"
+        "<em>The key worked and you watched it fade into nothingness as the door opened on its own, but strangly its still within your pockets??? Welcome to the library! What secrets are hidden here?</em>"
       );
     } else if (isInArea(clickX, clickY, areas.fourth)) {
       alert("This key does not fit this door.");
