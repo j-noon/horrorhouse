@@ -82,37 +82,37 @@ Depending on which room your in the image will display the room.
  wireframes were made in canva
 ## Wireframes for mobile (375px)
     Home page for mobile
- ![home](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/hh-home-small-devices.png)
+ ![home](https://github.com/j-noon/horrorhouse/blob/main/assets/wireframes/hh-home-small-devices.png)
 
     Game page for mobile
- ![Game](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/hh-game-small-devices.png)
+ ![Game](https://github.com/j-noon/horrorhouse/blob/main/assets/wireframes/hh-game-small-devices.png)
 
     Admin page for mobile
- ![Admin](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/hh-admin-small-devices.png)
+ ![Admin](https://github.com/j-noon/horrorhouse/blob/main/assets/wireframes/hh-admin-small-devices.png)
 
 
 
 ### wireframes for tablets (768px)
     Home page for tablets
- ![Home](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/hh-home-tablets.png)
+ ![Home](https://github.com/j-noon/horrorhouse/blob/main/assets/wireframes/hh-home-tablets.png)
 
     Game page for tablets
- ![Game](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/hh-game-tablets.png)
+ ![Game](https://github.com/j-noon/horrorhouse/blob/main/assets/wireframes/hh-game-tablets.png)
 
        Admin page for tablets
- ![Admin](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/hh-admin-tablets.png)
+ ![Admin](https://github.com/j-noon/horrorhouse/blob/main/assets/wireframes/hh-admin-tablets.png)
 
 
 
 ### wireframes for desktops (1024px) 
      Home page for desktops
- ![home](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/hh-home-desktops.png)
+ ![home](https://github.com/j-noon/horrorhouse/blob/main/assets/wireframes/hh-home-desktops.png)
 
      Game page for desktops
- ![Game](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/hh-game-desktops.png)
+ ![Game](https://github.com/j-noon/horrorhouse/blob/main/assets/wireframes/hh-game-desktops.png)
 
       Admin page for desktops
- ![Admin](https://github.com/j-noon/horrorhouse/blob/main/assests/wireframes/hh-admin-desktops.png)
+ ![Admin](https://github.com/j-noon/horrorhouse/blob/main/assets/wireframes/hh-admin-desktops.png)
 
 
 
