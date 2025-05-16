@@ -171,12 +171,12 @@ To make a clone of the site and ensure you don't affect the original:
 
 
 ## found bugs
-- my peice of gold that marks the key in room to wasnt in correct places when using a extra large display. this has now been amended. 
-- Hints where not changing when rooms changed. i now corected this.
+- my peice of gold that marks the key in room to wasnt in correct places when using a extra large display. this has now been amended. This was fixed by setting the gold position from the top left of the game room image rather than from the top left of page.
+- Hints where not changing when rooms changed. i now corected this. I made adjustments to the java-script to make if and if else statements. If room index is 1, then hint content changes, and then the if else is, if the book found is 'true' the hint content changes.
 - When "h" press it shows hint for the hint thats clicked last instead of the hint corelating with the room your in. this will be looked at in next version push. 
-- clickable areas needed adjusting lots as to get correct positions.
-- terminal content was breaking out of its container box, this has now been corrected.
-- admin pages flow seems abit off but its been adjusted for both development and deployment versions. 
+- clickable areas needed adjusting lots as to get correct positions. By setting min/max width and hieght values i had to adjust the values to corolate with making the click areas be over the doors on the game room images.
+- terminal content was breaking out of its container box, this has now been corrected. In the modals CSS 'gobuster-modal.terminal' i used the overflow-wrap:anywhere and it now keeps the content nicely within the area it should be.
+- admin pages flow seems abit off but its been adjusted by using marigns and positioning to space out the content to where i wanted it for both development and deployment versions. 
 
 
 
