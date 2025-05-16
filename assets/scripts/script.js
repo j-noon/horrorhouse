@@ -13,9 +13,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const modalMessage = document.getElementById("modal-message");
 
   const images = [
-    "assests/images/game-home.webp",
-    "assests/images/game-next.webp",
-    "assests/images/game-library.webp",
+    "assets/images/game-home.webp",
+    "assets/images/game-next.webp",
+    "assets/images/game-library.webp",
   ];
 
   let currentImageIndex = 0;
