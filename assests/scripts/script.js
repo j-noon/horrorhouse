@@ -54,6 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
       keyFound = true;
       gameHint.innerHTML =
         "<em>You just found the key. What door does it work on?</em>";
+        document.querySelectorAll(".clues1").forEach(el => el.style.display = "block");
     } else if (isInArea(clickX, clickY, areas.third) && keyFound) {
       moveToNextRoom(
         2,
@@ -69,6 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "<em>You found the book! The title reads 'The controlling of A...'</em>";
       bookFound = true;
       document.getElementById("wintoken").style.display = "block";
+      document.querySelectorAll(".clues2").forEach(el => el.style.display = "block");
     } else if (
       isInArea(clickX, clickY, areas.sixth) &&
       currentImageIndex === 2
@@ -157,6 +159,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function openTerminalModal() {
     terminalModal.style.display = "block";
+    document.querySelector(".clues3").style.display = "block";
   }
 
   function closeTerminalModal() {
